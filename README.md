@@ -21,10 +21,10 @@ Traditional "smart" retail systems often rely on manual checks to manage invento
 - **Notifications**: Pushbullet API
 
 ## 📷 How It Works
-1. ESP32 captures an image of the shelf at set intervals.
-2. Image is sent to the Flask server.
-3. Flask server uses a Roboflow model to detect and count products.
-4. If product quantity is below threshold, a push notification is sent.
+- 1. ESP32 captures an image of the shelf at set intervals.
+- 2. Image is sent to the Flask server.
+- 3. Flask server uses a Roboflow model to detect and count products.
+- 4. If product quantity is below threshold, a push notification is sent.
 
 ## Roboflow Object Detection Model
 To enable the shelf system to automatically recognize and count products, we trained a custom object detection model using Roboflow.
