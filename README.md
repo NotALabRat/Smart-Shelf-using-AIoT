@@ -47,7 +47,7 @@ Software:
 - Pushbullet API key (for notifications)
 
 ## 🔧 Setup Instructions
-Step 1: Set up the ESP32 Camera
+**Step 1**: Set up the ESP32 Camera
 Location: Camera Server/CameraWebServer_for_esp_arduino_3_0_x.ino
 - Open Arduino IDE.
 - Install the ESP32 board support package (via Board Manager).
@@ -63,7 +63,7 @@ const char* serverUrl = "http://<your_computer_ip>:5000/uploads";
 
 - Upload the code to your ESP32 board.
 
-Step 2: Run the Flask Server (Image Receiver)
+**Step 2**: Run the Flask Server (Image Receiver)
 
 - Open a terminal and navigate to the Intergration/ folder.
 - Install Flask:
@@ -74,7 +74,7 @@ pip install flask
 
 python int_server3.py
 
-Step 3: Configure and Run
+**Step 3**: Configure and Run
 
 - Open model.py and update:
 
