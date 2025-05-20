@@ -49,13 +49,13 @@ Software:
 ## 🔧 Setup Instructions
 Step 1: Set up the ESP32 Camera
 Location: Camera Server/CameraWebServer_for_esp_arduino_3_0_x.ino
-1.Open Arduino IDE.
-2.Install the ESP32 board support package (via Board Manager).
-3.Open CameraWebServer_for_esp_arduino_3_0_x.ino.
-4.Ensure camera_index.h and camera_pins.h are in the same folder.
-5.In camera_pins.h, uncomment the line for your camera model. For example:
+- Open Arduino IDE.
+- Install the ESP32 board support package (via Board Manager).
+- Open CameraWebServer_for_esp_arduino_3_0_x.ino.
+- Ensure camera_index.h and camera_pins.h are in the same folder.
+- In camera_pins.h, uncomment the line for your camera model. For example:
 #define CAMERA_MODEL_XIAO_ESP32S3
-6.Edit the .ino file and add your Wi-Fi credentials and Flask server IP:
+- Edit the .ino file and add your Wi-Fi credentials and Flask server IP:
 
 const char* ssid = "YourSSID";
 const char* password = "YourPassword";
