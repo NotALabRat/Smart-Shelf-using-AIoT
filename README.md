@@ -61,32 +61,32 @@ const char* ssid = "YourSSID";
 const char* password = "YourPassword";
 const char* serverUrl = "http://<your_computer_ip>:5000/uploads";
 
-7.Upload the code to your ESP32 board.
+- Upload the code to your ESP32 board.
 
 Step 2: Run the Flask Server (Image Receiver)
 
-1.Open a terminal and navigate to the Intergration/ folder.
-2.Install Flask:
+- Open a terminal and navigate to the Intergration/ folder.
+- Install Flask:
 
 pip install flask
 
-3.Run the server:
+- Run the server:
 
 python int_server3.py
 
 Step 3: Configure and Run
 
-1.Open model.py and update:
+- Open model.py and update:
 
 -Your Roboflow API key
 -Your Roboflow workspace and workflow ID
 -Your Pushbullet API key
 
-2.Update the path to the captured image:
+- Update the path to the captured image:
 
 filepath = "uploads/image.jpg"
 
-3.Run the inference script:
+- Run the inference script:
 
 python model.py
 
