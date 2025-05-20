@@ -31,24 +31,20 @@ To enable the shelf system to automatically recognize and count products, we tra
 
 Model URL: miniproject-cx2n2/my-first-project-j4pm9-instant-3
 
-## 🔧 Hardware Required
--ESP32 Xiao (or any ESP32 with camera support)
--Camera Module (OV2640 or similar)
--USB cable for flashing
 
 ## ✅ Prerequisites
 Hardware:
--ESP32-S3 or XIAO ESP32S3 Sense
--OV2640 camera module
--Micro-USB cable
--Wi-Fi access
+- ESP32-S3 or XIAO ESP32S3 Sense
+- OV2640 camera module
+- Micro-USB cable
+- Wi-Fi access
 
 Software:
--Arduino IDE with ESP32 board support
--Python 3.8+
--pip (Python package installer)
--Roboflow API key
--Pushbullet API key (for notifications)
+- Arduino IDE with ESP32 board support
+- Python 3.8+
+- pip (Python package installer)
+- Roboflow API key
+- Pushbullet API key (for notifications)
 
 ## 🔧 Setup Instructions
 Step 1: Set up the ESP32 Camera
