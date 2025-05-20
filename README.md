@@ -110,7 +110,7 @@ model.py picks up the image, runs inference using Roboflow, and sends push notif
 
 m-matchbox
 s-soap
-the number represents the count.
+the numbers 7,3 etc. represents the count.
 
 
 
