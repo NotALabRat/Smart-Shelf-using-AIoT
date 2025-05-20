@@ -108,6 +108,13 @@ m-matchbox
 s-soap
 the numbers 7,3 etc. represents the count.
 
+## Experimental Setup
+
+![Experimental Setup](https://github.com/user-attachments/assets/93df939e-229c-4758-8be5-03e19e3fd7ef)
+
+## Notification
+![Notifications](https://github.com/user-attachments/assets/4d55acec-8100-48e0-88a4-b68fa9326d0a)
+
 
 
 
