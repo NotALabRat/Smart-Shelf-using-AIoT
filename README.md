@@ -94,7 +94,7 @@ filepath = "uploads/image.jpg"
 
 python model.py
 
-##🧪 How It Works
+## 🧪 How It Works
 ESP32 Camera captures an image and sends it to the Flask server.
 
 Flask server saves it in the uploads/ folder.
